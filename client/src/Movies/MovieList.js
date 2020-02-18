@@ -6,6 +6,11 @@ import MovieCard from "./MovieCard";
 const MovieList = props => {
   const [movies, setMovies] = useState([]);
 
+  function MovieDetails({ movie }) {
+    const { title, director, metascore, stars } = movie;
+    return <MovieCard movie={movie}></MovieCard>;
+  }
+
   useEffect(() => {
     const getMovies = () => {
       axios
@@ -31,10 +36,5 @@ const MovieList = props => {
     </div>
   );
 };
-
-function MovieDetails({ movie }) {
-  const { title, director, metascore, stars } = movie;
-  return <MovieCard movie={movie}></MovieCard>;
-}
 
 export default MovieList;
