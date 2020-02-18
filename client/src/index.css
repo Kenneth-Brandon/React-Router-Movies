@@ -66,6 +66,7 @@ body {
   border-radius: 25%;
   background-color: #87ceeb;
   font-size: 1.5rem;
+  cursor: grabbing;
 }
 
 .movie-list {
@@ -86,6 +87,7 @@ body {
   margin: 5px;
   background-color: #87ceeb;
   font-size: 1.5rem;
+  cursor: grabbing;
 }
 
 .save-button:hover {
