@@ -62,7 +62,10 @@ body {
 
 .home-button {
   padding: 5px 10px;
-  /* background-color: lightskyblue; */
+  border: 2px solid #000000;
+  border-radius: 25%;
+  background-color: #87ceeb;
+  font-size: 1.5rem;
 }
 
 .movie-list {
@@ -77,14 +80,16 @@ body {
   position: absolute;
   top: 25px;
   right: 25px;
-  border: 1px solid grey;
+  border: 2px solid #000000;
+  border-radius: 25%;
   padding: 7px 15px;
   margin: 5px;
-  background-color: lightseagreen;
+  background-color: #87ceeb;
+  font-size: 1.5rem;
 }
 
 .save-button:hover {
-  background-color: green;
+  background-color: #00bfff;
   color: white;
 }
 
